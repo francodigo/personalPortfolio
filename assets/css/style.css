@@ -291,6 +291,15 @@ img {
   margin-bottom: var(--mb-4);
 }
 
+.about__img {
+  width: 150px;
+  border-radius: 0.5rem;
+  margin: 0 auto;
+  -webkit-box-shadow: 10px 10px 53px -16px var(--text-color);
+  -moz-box-shadow: 10px 10px 53px -16px var(--text-color);
+  box-shadow: 10px 10px 53px -16px var(--text-color);
+}
+
 .about__information-title {
   font-size: var(--h3-font-size);
   color: var(--first-color-dark);
