@@ -42,6 +42,7 @@ function scrollActive() {
   });
 }
 
+/* Smooth scroll  */
 $('.nav a ').on('click', function (e) {
   // 1
   e.preventDefault();
