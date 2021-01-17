@@ -396,14 +396,20 @@ img {
   display: grid;
   grid-template-columns: 1fr max-content 1fr;
 }
-.education__year,
-.education__race {
+
+.education__year {
   font-size: var(--h3-font-size);
   margin-bottom: 0.25rem;
 }
 
-.education__university,
-.education__speciality {
+.education__race {
+  font-size: var(--h4-font-size);
+  letter-spacing: 0.25px;
+  font-weight: 200;
+  margin-bottom: 0.25rem;
+}
+
+.education__university {
   display: block;
   font-size: var(--smaller-font-size);
 }
