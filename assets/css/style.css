@@ -122,6 +122,10 @@ img {
   align-items: center; /**/
 }
 
+.nav__logo{
+  color:var(--first-color);
+}
+
 .nav__menu {
   position: fixed;
   top: 0;
@@ -159,7 +163,7 @@ img {
   color: var(--text-color);
 }
 
-.nav__toggle {
+.nav__open {
   color: var(--first-color-dark);
   font-size: 1.3rem;
   cursor: pointer;
@@ -175,7 +179,7 @@ img {
 
 /*==== Class for Sections in General ===*/
 .section {
-  padding: 4rem 0 2rem;
+  padding: 5rem 0 2rem;
 }
 
 .section-title {
@@ -326,64 +330,6 @@ img {
 
 .about__information-subtitle-small {
   font-size: var(--small-font-size);
-}
-
-/*=============================*/
-/*======== Skills Section =====*/
-.skills__container {
-  row-gap: 2rem;
-}
-
-.skills__subtitle {
-  font-size: var(--h3-font-size);
-  color: var(--first-color-dark);
-  margin-bottom: var(--mb-2);
-}
-
-.skills__data {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  margin: 0 var(--mb-2);
-  margin-bottom: var(--mb-4);
-}
-
-.skills__name {
-  text-transform: uppercase;
-}
-
-.skills__bar {
-  position: absolute;
-  bottom: -0.75rem;
-  height: 0.25rem;
-  background-color: var(--first-color);
-}
-
-.skills__html {
-  width: 80%;
-}
-.skills__sass {
-  width: 50%;
-}
-.skills__js {
-  width: 100%;
-}
-.skills__vue {
-  width: 70%;
-}
-.skills__react {
-  width: 70%;
-}
-.skills__php {
-  width: 70%;
-}
-
-.skills__laravel {
-  width: 80%;
-}
-
-.skills__mysql {
-  width: 50%;
 }
 
 /*=================================*/
@@ -583,7 +529,7 @@ img {
   .l-header {
     width: 0;
   }
-  .nav__toggle,
+  .nav__open,
   .nav__logo,
   .nav__close {
     display: none;
